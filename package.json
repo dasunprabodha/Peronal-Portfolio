@@ -1,0 +1,12 @@
+{
+  "name": "Peronal Portfolio",
+  "version": "1.0.0",
+  "dependencies": {
+    "@js-joda/core": "^5.5.3",
+    "animate.css": "^4.1.1",
+    "bootstrap": "^5.3.1",
+    "dsfsdf": "^1.0.0",
+    "jquery": "^3.7.0",
+    "js-joda": "^1.11.0"
+  }
+}
