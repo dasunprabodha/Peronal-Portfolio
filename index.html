@@ -6,10 +6,14 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Peronal Portfolio - Dasun Amarasinghe</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Rubik+Pixels&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
           rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
@@ -20,7 +24,7 @@
 
 </head>
 <body>
-<header>
+
     <div class="px-3 py-2 text-bg-dark border-bottom">
         <div class="container">
             <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
@@ -34,41 +38,55 @@
                     <li>
                         <a href="#" class="nav-link text-secondary">
                             <svg class="bi d-block mx-auto mb-1" width="24" height="24">
-                                <use xlink:href="#home"></use>
                             </svg>
-                            Home
                         </a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#header">Home</a>
+                    </li>
+
+
                     </li>
                     <li>
                         <a href="#" class="nav-link text-white">
                             <svg class="bi d-block mx-auto mb-1" width="24" height="24">
                                 <use xlink:href="#speedometer2"></use>
                             </svg>
-                            About
                         </a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+
                     </li>
                     <li>
                         <a href="#" class="nav-link text-white">
                             <svg class="bi d-block mx-auto mb-1" width="24" height="24">
                                 <use xlink:href="#table"></use>
                             </svg>
-                            Portfolio
                         </a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+
+
                     </li>
                     <li>
                         <a href="#" class="nav-link text-white">
                             <svg class="bi d-block mx-auto mb-1" width="24" height="24">
                                 <use xlink:href="#grid"></use>
                             </svg>
-                            Contact
                         </a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+
+
                     </li>
 
                 </ul>
             </div>
         </div>
     </div>
-    <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-body-tertiary">
+    <div id ="header" class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-body-tertiary">
         <div class="col-md-6 p-lg-5 mx-auto my-5">
             <h1 class="display-4 fw-bold">Hi ! I'm Dasun Amarasinghe</h1>
             <h3 class="fw-normal text-muted mb-3">Full stack developer</h3>
@@ -83,7 +101,8 @@
         <link rel="stylesheet" href="bootstrap.min.css">
         <title>Your Page Title</title>
     </head>
-    <body> <div class="about-col-2">
+    <body>
+    <div id ="about" class="about-col-2">
         <h1 class="sub-title">About Me</h1>
         <p>
             I am a committed, determined graduate and a motivated, hard working young
@@ -93,104 +112,95 @@
             organizational objectives.
         </p>
         <div></div>
-    <div class="container py-5">
-        <div class="row g-4 row-cols-1 row-cols-lg-3">
-            <div class="feature col">
-                <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
-                    <svg class="bi" width="1em" height="1em">
-                        <use xlink:href="#collection"></use>
-                    </svg>
+        <div class="container py-5">
+            <div class="row g-4 row-cols-1 row-cols-lg-3">
+                <div class="feature col">
+
+                    <i class="fa-solid fa-star"></i>
+                    <h3 class="fs-2 text-body-emphasis">Skill</h3>
+                    <ul>
+                        <li>UI Design - Designing web/App Interfaces</li>
+                        <li>Desktop App Development - Building Desktop apps</li>
+                        <li>Web Development - Design web applications and web sites</li>
+                    </ul>
                 </div>
-                <h3 class="fs-2 text-body-emphasis">Skill</h3>
-                <ul>
-                    <li>UI Design - Designing web/App Interfaces</li>
-                    <li>Desktop App Development - Building Desktop apps</li>
-                    <li>Web Development - Design web applications and web sites</li>
-                </ul>
-            </div>
-            <div class="feature col">
-                <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
-                    <svg class="bi" width="1em" height="1em">
-                        <use xlink:href="#people-circle"></use>
-                    </svg>
+                <div class="feature col">
+                    <i class="fa-solid fa-wand-magic-sparkles"></i>
+                    <h3 class="fs-2 text-body-emphasis">Experience</h3>
+                    <ul>
+                        <li>Software Trainee - IJSE</li>
+                        <li>Civil Engineer - Access Engineer PLC</li>
+                    </ul>
                 </div>
-                <h3 class="fs-2 text-body-emphasis">Experience</h3>
-                <ul>
-                    <li>Software Trainee - Software Development</li>
-                    <li>Civil Engineer - Access Engineer PLC</li>
-                </ul>
-            </div>
-            <div class="feature col">
-                <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
-                    <svg class="bi" width="1em" height="1em">
-                        <use xlink:href="#toggles2"></use>
-                    </svg>
+                <div class="feature col">
+                    <i class="fa-solid fa-gear"></i>
+                    <h3 class="fs-2 text-body-emphasis">Education</h3>
+                    <ul>
+                        <li>Master of Business Administration - University of Bedfordshire</li>
+                        <li>B.Sc Engineering (Hons.) - University of Moratuwa</li>
+                        <li>Software Engineering - IJSE DEP programme</li>
+                    </ul>
                 </div>
-                <h3 class="fs-2 text-body-emphasis">Education</h3>
-                <ul>
-                    <li>Master of Business Administration - University of Bedfordshire</li>
-                    <li>B.Sc Engineering (Hons.) - University of Moratuwa</li>
-                    <li>Software Engineering - IJSE DEP programme</li>
-                </ul>
             </div>
         </div>
     </div>
     </body>
     </html>
 
-    <div class="album py-5 bg-body-tertiary">
+    <div id ="portfolio" class="album py-5 bg-body-tertiary">
         <div class="container">
-
             <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
                 <div class="col">
-                    <div class="card shadow-sm h-100">
-                        <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-                        <div class="card-body">
-                            <p class="card-text">Cloud based point of sale system which consists of both front-end and back-end
-                                operations facilitates managing customers and items and manages the
-                                orders that help to do the daily operations.</p>
-                            <div class="d-flex justify-content-between align-items-center">
-                                <div class="btn-group">
-                                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                </div>
+                    <div class="card h-100">
+                        <img src="img/pos.jpeg" alt="Point of Sale" class="card-img-top">
+                        <div class="card-body d-flex flex-column">
+                            <p class="card-text">Cloud based point of sale system which consists of both front-end and
+                                back-end
+                                operations facilitates managing customers and items and manages the orders that help to
+                                do the daily operations.</p>
+                            <div class="mt-auto">
+                                <a type="button" href="https://github.com/dasunprabodha"
+                                   class="btn btn-sm btn-outline-secondary">View</a>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card shadow-sm h-100">
-                        <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-                        <div class="card-body">
-                            <p class="card-text">This app is developed to easily upload and download wallpapers. Upload images
+                    <div class="card h-100">
+                        <img src="img/gallery.jpeg" alt="Gallery" class="card-img-top">
+                        <div class="card-body d-flex flex-column">
+                            <p class="card-text">This app is developed to easily upload and download wallpapers. Upload
+                                images
                                 by drag and drop on the upload area. The download can be done by clicking on the
                                 download icons in each image.</p>
-                            <div class="d-flex justify-content-between align-items-center">
-                                <div class="btn-group">
-                                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                </div>
+                            <div class="mt-auto">
+                                <a type="button" href="https://github.com/dasunprabodha"
+                                   class="btn btn-sm btn-outline-secondary">View</a>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card shadow-sm h-100">
-                        <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-                        <div class="card-body">
-                            <p class="card-text">This app is developed with both front-end and back-end operations to store, retrieve books
-                                according to the isbn codes. Suitable for library management purposes and other services.
-                                </p>
-                            <div class="d-flex justify-content-between align-items-center">
-                                <div class="btn-group">
-                                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                </div>
+                    <div class="card h-100">
+                        <img src="img/book.jpeg" alt="Library" class="card-img-top">
+                        <div class="card-body d-flex flex-column">
+                            <p class="card-text">This app is developed with both front-end and back-end operations to
+                                store, retrieve books
+                                according to the isbn codes. Suitable for library management purposes and other related
+                                services.</p>
+                            <div class="mt-auto">
+                                <a type="button" href="https://github.com/dasunprabodha"
+                                   class="btn btn-sm btn-outline-secondary">View</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <a href="https://github.com/dasunprabodha" class="btn">See more</a>
-
+            <div class="text-center mt-4">
+                <a href="https://github.com/dasunprabodha" class="btn btn-primary">See more</a>
+            </div>
         </div>
+
     </div>
     <div id="contact">
         <div class="container">
@@ -203,8 +213,12 @@
                         <a href="https://github.com/dasunprabodha"><i class="fab fa-github-square"></i></a>
                         <a href="https://www.linkedin.com/in/dasun-amarasinghe"><i class="fab fa-linkedin"></i></a>
                     </div>
-                    <a href="document/CV - Dasun Amarasinghe.pdf" download class="btn btn2">Download CV</a>
+                    <div class="text-center mt-4">
+                        <a href="document/CV.pdf" download class="btn btn-primary btn2">Download
+                            CV</a>
+                    </div>
                 </div>
+
                 <div class="col-md-6 contact-right">
                     <form>
                         <div class="form-floating mb-3">
@@ -219,11 +233,17 @@
                             <textarea id="comments" class="form-control" placeholder="Please add something"></textarea>
                             <label for="comments">Your Message</label>
                         </div>
-                        <button id="btnSubmit" type="submit" class="btn btn2">Submit</button>
+                        <div class="text-center mt-4">
+                            <button id="btnSubmit" type="submit" class="btn btn-primary btn2">Submit</button>
+                        </div>
                     </form>
                 </div>
             </div>
         </div>
-</header>
+    </div>
+
 </body>
+<footer>
+    <p> Copyright &copy; Dasun Amarasinghe. All Rights Reserved.</p>
+</footer>
 </html>
